@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vbmiB18K7UbampXZZvrV7QgwzrijTsRYigjIj766rnoq71aKB14QlPn8PQcXHpZUvlbzM9EL2pkabRNIyN1C/A==",
+  "dgSpecHash": "FgwtMwUXPlVaK9iEM7rqn3W4zgW0/2FrmluUEDv27p0zqbRr1H258CPV4yDb2KVLfGK3tX1WJ1lrytOc7mOlUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Droid\\PracticeApp.Droid.csproj",
+  "projectFilePath": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Droid\\PracticeApp.Droid.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xavim\\.nuget\\packages\\mvvmcross\\7.1.2\\mvvmcross.7.1.2.nupkg.sha512",
     "C:\\Users\\xavim\\.nuget\\packages\\mvvmcross.droidx.material\\7.1.2\\mvvmcross.droidx.material.7.1.2.nupkg.sha512",

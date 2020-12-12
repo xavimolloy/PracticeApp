@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "otD/E0E/aPQrVKvAVJprj4EhSy4aI1NHV2jcnwbal/u/VCZoaZ1U5YmM42oiobNOYWO1ZXRSaEiiSqOOpY94Zg==",
+  "dgSpecHash": "tY0TYb9UY1NvIyZxxLt/XDThGyAQRxd5QGpE9ETx4fq5AO2mCvQWNzcdBQRnldmtuSfv1OUxyowkpHJ16/Jzuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.iOS\\PracticeApp.iOS.csproj",
+  "projectFilePath": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.iOS\\PracticeApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xavim\\.nuget\\packages\\mvvmcross\\7.1.2\\mvvmcross.7.1.2.nupkg.sha512",
     "C:\\Users\\xavim\\.nuget\\packages\\mvvmcross.forms\\7.1.2\\mvvmcross.forms.7.1.2.nupkg.sha512",

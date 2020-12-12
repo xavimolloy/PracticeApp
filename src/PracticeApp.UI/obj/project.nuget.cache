@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3kbi8wIbV/wLk90YN4c2Mu+P4uQciCw8K8JYE2wbvL2YTNN5EbMUZQj7LYDXT3U8fLS7I2KehtoWevpasaBgxA==",
+  "dgSpecHash": "SI7rQv/c1ijfeQIzKp3e+wae73ZO2CnFM/Jb/sa4kiG1uH0zO4902vVZa27rrTonOOVKgbrZyVLp4Azs8tFG3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.UI\\PracticeApp.UI.csproj",
+  "projectFilePath": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.UI\\PracticeApp.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xavim\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\xavim\\.nuget\\packages\\mvvmcross\\7.1.2\\mvvmcross.7.1.2.nupkg.sha512",
