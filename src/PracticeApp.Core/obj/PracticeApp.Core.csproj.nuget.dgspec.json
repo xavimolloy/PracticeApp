@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj": {}
+    "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj": {
+    "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj",
         "projectName": "PracticeApp.Core",
-        "projectPath": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj",
+        "projectPath": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj",
         "packagesPath": "C:\\Users\\xavim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Core\\obj\\",
+        "outputPath": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

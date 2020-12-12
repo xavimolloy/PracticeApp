@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Droid\\PracticeApp.Droid.csproj": {}
+    "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Droid\\PracticeApp.Droid.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj": {
+    "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj",
         "projectName": "PracticeApp.Core",
-        "projectPath": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj",
+        "projectPath": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj",
         "packagesPath": "C:\\Users\\xavim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Core\\obj\\",
+        "outputPath": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Droid\\PracticeApp.Droid.csproj": {
+    "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Droid\\PracticeApp.Droid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Droid\\PracticeApp.Droid.csproj",
+        "projectUniqueName": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Droid\\PracticeApp.Droid.csproj",
         "projectName": "PracticeApp.Droid",
-        "projectPath": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Droid\\PracticeApp.Droid.csproj",
+        "projectPath": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Droid\\PracticeApp.Droid.csproj",
         "packagesPath": "C:\\Users\\xavim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Droid\\obj\\",
+        "outputPath": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Droid\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -97,11 +97,11 @@
         "frameworks": {
           "monoandroid10.0": {
             "projectReferences": {
-              "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj": {
-                "projectPath": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj"
+              "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj": {
+                "projectPath": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj"
               },
-              "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.UI\\PracticeApp.UI.csproj": {
-                "projectPath": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.UI\\PracticeApp.UI.csproj"
+              "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.UI\\PracticeApp.UI.csproj": {
+                "projectPath": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.UI\\PracticeApp.UI.csproj"
               }
             }
           }
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.UI\\PracticeApp.UI.csproj": {
+    "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.UI\\PracticeApp.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.UI\\PracticeApp.UI.csproj",
+        "projectUniqueName": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.UI\\PracticeApp.UI.csproj",
         "projectName": "PracticeApp.UI",
-        "projectPath": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.UI\\PracticeApp.UI.csproj",
+        "projectPath": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.UI\\PracticeApp.UI.csproj",
         "packagesPath": "C:\\Users\\xavim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.UI\\obj\\",
+        "outputPath": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -158,8 +158,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj": {
-                "projectPath": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj"
+              "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj": {
+                "projectPath": "C:\\Users\\xavim\\Source\\Repos\\PracticeApp\\src\\PracticeApp.Core\\PracticeApp.Core.csproj"
               }
             }
           }
