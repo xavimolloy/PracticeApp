@@ -4,7 +4,7 @@
                     x:Class="PracticeApp.UI.Resources.Colors"
                     xmlns:local="clr-namespace:PracticeApp.UI.Resources">
 
-    <Color x:Key="PrimaryColor">#4c555a</Color>
+    <Color x:Key="PrimaryColor">teal</Color>
     <Color x:Key="PrimaryDarkColor">#242c31</Color>
     <Color x:Key="PrimaryLightColor">#788187</Color>
 

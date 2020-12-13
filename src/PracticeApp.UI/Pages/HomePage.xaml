@@ -8,11 +8,16 @@
     x:Class="PracticeApp.UI.Pages.HomePage"
     xmlns:viewModels="clr-namespace:PracticeApp.Core.ViewModels.Home;assembly=PracticeApp.Core"
                       Title="Main page">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome!!&#10;App scaffolded with MvxScaffolding"
-                VerticalOptions="CenterAndExpand" 
+    
+        <StackLayout Margin="20" Spacing="20">
+            <Label Text="Welcome!!&#10;With this app I will learn to develop using Xamarin"
+                   FontSize="20"
+                VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+        <Label Text="First, let's make an entry where you can type text and a label right underneath it, that will update that label with whatever we write in it, by using Mvvm bindings"/>
+        <Entry HorizontalOptions="Fill" Text="{Binding TextOnEntry}"/>
+        <Label Text="{Binding EntryTextBind}"/>
+        <Button Text="OK" Command="{Binding WellDoneMessagge}"/>
+    </StackLayout>
+   
 </views:MvxContentPage>

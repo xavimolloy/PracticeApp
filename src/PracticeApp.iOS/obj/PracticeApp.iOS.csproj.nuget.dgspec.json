@@ -44,7 +44,15 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.1.0.470, )"
+            },
             "MvvmCross": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "MvvmCross.Forms": {
               "target": "Package",
               "version": "[7.1.2, )"
             },
@@ -53,6 +61,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1269, )"
             }
           },
           "imports": [
@@ -110,6 +122,10 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.1.0.470, )"
+            },
             "MvvmCross": {
               "target": "Package",
               "version": "[7.1.2, )"
@@ -181,6 +197,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.1.0.470, )"
+            },
             "MvvmCross": {
               "target": "Package",
               "version": "[7.1.2, )"
