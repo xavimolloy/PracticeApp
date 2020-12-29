@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:MvxContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PracticeApp.UI.Pages.WeatherPage"
+             xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+             xmlns:local="clr-namespace:PracticeApp.UI.Pages"
+             xmlns:dm="clr-namespace:dotMorten.Xamarin.Forms;assembly=dotMorten.Xamarin.Forms.AutoSuggestBox" 
+             xmlns:viewModels="clr-namespace:PracticeApp.Core.ViewModels;assembly=PracticeApp.Core"
+             x:TypeArguments="viewModels:WeatherViewModel"
+                      Title="My Weather">
+   
+        <StackLayout Spacing="5" Margin="15">
+            <Label Text="Enter City"
+                HorizontalOptions="Start" />
+            <Entry x:Name="CityEntry"
+                   Text="{Binding CityEntry}"
+                Placeholder="Los Corrales de Buelna"/>
+        <dm:AutoSuggestBox x:Name="SuggestBox"
+                           PlaceholderText="Enter your City"
+                           DisplayMemberPath="FullDisplayName"
+                           TextMemberPath="DisplayName"
+                           TextChanged="SugestBox_TextChanged"
+                           QuerySubmitted="SuggestBox_QuerySubmitted_1"/>
+
+        <Button Text="Tell me the Weather" Command="{Binding GetWeatherButton}"/>
+
+        <ScrollView>
+            <StackLayout>
+                <Label  Text="{Binding CityEntry, StringFormat= 'This is all the data we have available for {0}:'}"/>
+                <Label Text="{Binding TemperatureLabel, StringFormat='Temperature:  {0}' }"/>
+                <Label Text="{Binding Longitude, StringFormat='Longitude:  {0} .' }"/>
+                <Label Text="{Binding Latitude, StringFormat='Latitude:  {0} .' }"/>
+                <Label Text="{Binding Pressure, StringFormat='Pressure:  {0} ' }"/>
+                <Label Text="{Binding Humidity, StringFormat='Humidity:  {0} .' }"/>
+                <Label Text="{Binding TempMin, StringFormat='Lowest temperature:  {0} ºC' }"/>
+                <Label Text="{Binding TempMax, StringFormat='highest temperature:  {0} ºC' }"/>
+                <Label Text="{Binding SysID, StringFormat='System Id:  {0} .' }"/>
+                <Label Text="{Binding Type, StringFormat='System Type  {0} .' }"/>
+                <Label Text="{Binding Messagge, StringFormat='System messagge:  {0} .' }"/>
+                <Label Text="{Binding Country, StringFormat='Country:  {0}.' }"/>
+                <Label Text="{Binding Sunrise, StringFormat='Watch the sun rise at:  {0}.' }"/>
+                <Label Text="{Binding Sunset, StringFormat='Watch the sun set at:  {0}.' }"/>
+                <Label Text="{Binding WindSpeed, StringFormat='Wind Speed:  {0}.' }"/>
+                <Label Text="{Binding WindSeg, StringFormat='Wind Deg:  {0} .' }"/>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+
+</views:MvxContentPage>

@@ -9,6 +9,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using MvvmCross.ViewModels;
 using Acr.UserDialogs;
+using MvvmCross.Navigation;
 
 namespace PracticeApp.Core.ViewModels.Home
 {
@@ -20,6 +21,11 @@ namespace PracticeApp.Core.ViewModels.Home
         
         public Command WellDoneMessagge =>
          _wellDoneMessagge ?? (_wellDoneMessagge = new Command(Congratulate));
+
+        private Command _goToWeather;
+
+        public Command GoToWeather =>
+            _goToWeather ?? (_goToWeather = new Command(TravelToWeather));
         
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -55,10 +61,15 @@ namespace PracticeApp.Core.ViewModels.Home
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
 
+        public void TravelToWeather()
+        {
+            Mvx.IoCProvider.Resolve<IMvxNavigationService>().Navigate<WeatherViewModel>();
+            
+        }
         public void Congratulate()
         {
-            UserDialogs.Instance.Alert("We are just starting",
-             "well done, next we will try do do a page with a an observable collection" +
+            UserDialogs.Instance.Alert("well done, next we will try do do a page with a an observable collection",
+             "We are just starting" +
              "that displays information using an api", "Can't wait");
         }
   

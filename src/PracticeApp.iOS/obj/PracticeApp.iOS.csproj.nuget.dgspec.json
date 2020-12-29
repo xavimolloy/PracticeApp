@@ -62,9 +62,21 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.8.0.1269, )"
+              "version": "[4.8.0.1687, )"
+            },
+            "dotMorten.Xamarin.Forms.AutoSuggestBox": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "dotMorten.Xamarin.Forms.AutoSuggestBoxChange": {
+              "target": "Package",
+              "version": "[1.1.1, )"
             }
           },
           "imports": [
@@ -134,9 +146,21 @@
               "target": "Package",
               "version": "[7.1.2, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.8.0.1269, )"
+              "version": "[4.8.0.1687, )"
+            },
+            "dotMorten.Xamarin.Forms.AutoSuggestBox": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "dotMorten.Xamarin.Forms.AutoSuggestBoxChange": {
+              "target": "Package",
+              "version": "[1.1.1, )"
             }
           }
         }
@@ -215,9 +239,21 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.8.0.1269, )"
+              "version": "[4.8.0.1687, )"
+            },
+            "dotMorten.Xamarin.Forms.AutoSuggestBox": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "dotMorten.Xamarin.Forms.AutoSuggestBoxChange": {
+              "target": "Package",
+              "version": "[1.1.1, )"
             }
           },
           "imports": [

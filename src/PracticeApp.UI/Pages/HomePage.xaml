@@ -7,7 +7,7 @@
     xmlns:local="clr-namespace:PracticeApp.UI.Pages"
     x:Class="PracticeApp.UI.Pages.HomePage"
     xmlns:viewModels="clr-namespace:PracticeApp.Core.ViewModels.Home;assembly=PracticeApp.Core"
-                      Title="Main page">
+                      Title="Instant re-eding with Bindings">
     
         <StackLayout Margin="20" Spacing="20">
             <Label Text="Welcome!!&#10;With this app I will learn to develop using Xamarin"
@@ -17,7 +17,9 @@
         <Label Text="First, let's make an entry where you can type text and a label right underneath it, that will update that label with whatever we write in it, by using Mvvm bindings"/>
         <Entry HorizontalOptions="Fill" Text="{Binding TextOnEntry}"/>
         <Label Text="{Binding EntryTextBind}"/>
-        <Button Text="OK" Command="{Binding WellDoneMessagge}"/>
+        <Button Text="OK" Command="{Binding WellDoneMessagge}" />
+        <Label Text=" Next lets try and implement a weather App!"/>
+        <Button Text="Go to weather App" Command="{Binding GoToWeather}"/>
     </StackLayout>
    
 </views:MvxContentPage>

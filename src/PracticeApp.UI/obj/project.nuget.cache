@@ -1,15 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "KH7avxnVRM2xD0MWTgG05vfXK/NrkNRZFVWnfocEBVkhdRnhiqFFUtXVdM3p3jJsEdry1tvRObaZeIycF69ZWA==",
+  "dgSpecHash": "4kbpRM1MPQY+FVYibaE1r0YwgqbpisuD1r7SrnaJyGGm0whhRjtky72tSvXgqny4RdMO//89IaCh5yXyfLJu5A==",
   "success": true,
   "projectFilePath": "C:\\Users\\xavim\\source\\repos\\PracticeApp\\src\\PracticeApp.UI\\PracticeApp.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xavim\\.nuget\\packages\\acr.userdialogs\\7.1.0.470\\acr.userdialogs.7.1.0.470.nupkg.sha512",
+    "C:\\Users\\xavim\\.nuget\\packages\\dotmorten.xamarin.forms.autosuggestbox\\1.1.1\\dotmorten.xamarin.forms.autosuggestbox.1.1.1.nupkg.sha512",
+    "C:\\Users\\xavim\\.nuget\\packages\\dotmorten.xamarin.forms.autosuggestboxchange\\1.1.1\\dotmorten.xamarin.forms.autosuggestboxchange.1.1.1.nupkg.sha512",
     "C:\\Users\\xavim\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\xavim\\.nuget\\packages\\mvvmcross\\7.1.2\\mvvmcross.7.1.2.nupkg.sha512",
     "C:\\Users\\xavim\\.nuget\\packages\\mvvmcross.forms\\7.1.2\\mvvmcross.forms.7.1.2.nupkg.sha512",
     "C:\\Users\\xavim\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\xavim\\.nuget\\packages\\xamarin.forms\\4.8.0.1269\\xamarin.forms.4.8.0.1269.nupkg.sha512"
+    "C:\\Users\\xavim\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\xavim\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512"
   ],
   "logs": []
 }
